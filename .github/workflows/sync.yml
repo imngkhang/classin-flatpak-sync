@@ -22,5 +22,5 @@ jobs:
 
           git remote add downstream git@github.com:imngkhang/classin-flatpak-wrapper.git
 
-          git push downstream "refs/heads/*:refs/heads/*" --force
-          git push downstream "refs/tags/*:refs/tags/*" --force
+          git push downstream --prune "refs/heads/*:refs/heads/*" --force
+          git push downstream --prune "refs/tags/*:refs/tags/*" --force
