@@ -2,7 +2,7 @@ name: Mirror Sync from Flathub
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 */12 * * *'
   workflow_dispatch:
 
 jobs:
